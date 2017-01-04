@@ -1,0 +1,6 @@
+<% @cases.each do |case_item| %>
+	<div class="case">
+		<h3><%= case_item.minimum %> - <%= case_item.maximum %></h3>
+		<span><%= case_item.price %></span>
+	</div>
+<% end %>
